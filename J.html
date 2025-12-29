@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My New Portfolio</title>
+    <link href="style3.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>My New Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My New Portfolio</h2>
+        <p>I'm a passionate developer showcasing my work.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a software engineer with experience in web development, including HTML, CSS, JavaScript, and more. I love creating interactive and user-friendly websites that blend creativity with functionality.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio website built with HTML, CSS, and JavaScript, featuring modern design and smooth animations.</p>
+        </div>
+        <div class="project">
+            <h3>E-commerce Platform</h3>
+            <p>An online store with shopping cart functionality, payment integration, and a sleek, modern UI.</p>
+        </div>
+        <div class="project">
+            <h3>Weather Dashboard</h3>
+            <p>A weather application using APIs for real-time data, with interactive maps and location-based forecasts.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My New Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script3.js"></script>
 </body>
 </html>
