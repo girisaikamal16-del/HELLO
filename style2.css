@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+
+}
+header{
+    background-color: aquamarine;
+    
+    border: 2px solid rgb(210, 148, 25);
+    padding: 30px;
+    margin: 50px;
+}
